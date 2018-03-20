@@ -1,4 +1,4 @@
-const socket = io('10.89.100.232:8111');
+const socket = io('http://10.89.100.232:8111');
 const localVideo = document.getElementById('localVideo');
 const remoteVideo = document.getElementById('remoteVideo');
 
