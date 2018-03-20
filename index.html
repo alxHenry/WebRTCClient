@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Livestream</title>
+</head>
+
+<body>
+  <video id="localVideo" autoplay muted></video>
+  <video id="remoteVideo" autoplay muted></video>
+  <button id="start" onclick="start(true);">Start</button>
+  <button id="stop" onclick="stop();">Stop</button>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src='/simple.js'></script>
+</body>
+
+</html>
